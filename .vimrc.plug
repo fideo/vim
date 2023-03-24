@@ -1,0 +1,39 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+" ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors) in NeoVim 0.2.0+ and Vim 8 while you edit your text files
+Plug 'dense-analysis/ale'
+
+" Status Line for vim
+Plug 'vim-airline/vim-airline'
+
+" Theme for vim Airline
+Plug 'vim-airline/vim-airline-themes'
+
+" Theme form vim 
+Plug 'nanotech/jellybeans.vim', { 'tag': 'v1.7' }
+
+" NERDTree
+Plug 'scrooloose/nerdtree'
+
+" Icons
+Plug 'ryanoasis/vim-devicons'
+
+" Development
+Plug 'jiangmiao/auto-pairs'
+Plug 'alvan/vim-closetag'
+Plug 'tpope/vim-surround'
+Plug 'valloric/youcompleteme'
+Plug 'honza/vim-snippets'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'mattn/emmet-vim'
+Plug 'SirVer/ultisnips'
+Plug 'yggdroot/indentline'
+
+  "Git
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+
+call plug#end()

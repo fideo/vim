@@ -1,0 +1,7 @@
+Vaca
+Hormiga
+Liebre
+Conejo
+Araña
+Gato
+Perro
