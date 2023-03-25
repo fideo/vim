@@ -21,6 +21,10 @@ Plug 'scrooloose/nerdtree'
 " Icons
 Plug 'ryanoasis/vim-devicons'
 
+" Show Yanked
+Plug 'kana/vim-operator-user'
+Plug 'haya14busa/vim-operator-flashy'
+
 " Development
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'

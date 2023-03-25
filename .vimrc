@@ -140,3 +140,10 @@ let g:user_emmet_settings = {
 " ultisnips ---------------------------------------------
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsListSnippets="<c-l>"
+
+" Show yanked
+map y <Plug>(operator-flashy)
+nmap Y <Plug>(operator-flashy)$
+let g:operator#flashy#flash_time = 1000
+
+
