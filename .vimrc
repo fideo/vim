@@ -59,12 +59,21 @@ set encoding=utf-8
 
 " Highlight matching search patterns
 set hlsearch
+
 " Enable incremental search
 set incsearch
+
 " Include matching uppercase words with lowercase search term
 set ignorecase
+
 " Include only uppercase words with uppercase search term
 set smartcase
+
+" Automatically save before commands like :next and :make
+set autowrite
+
+" Enable mouse usage (all modes)
+set mouse=a
 
 " Store info from no more than 100 files at a time, 9999 lines of text, 100kb of data. Useful for copying large amounts of data between files.
 set viminfo='100,<9999,s100
